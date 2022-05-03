@@ -13,10 +13,10 @@ body{
       align-items: space-evenly;
   }
   .github{
-    padding: 10px;
-    height: 60px;
-    background-color: #5c666a;
-    margin-right: 20px;
+    padding: 10px !important;
+    height: 60px !important;
+    background-color: #5c666a !important;
+    margin-right: 20px !important;
   }
   .intro,#about,#internships,#education,#projects,#skills{
     background: url('https://chiragsharma.info/assets/img/banner/home-banner.png');

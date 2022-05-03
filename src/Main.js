@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,ListGroup,Nav,Container,NavDropdown,Card,Button,ProgressBar} from 'react-bootstrap'
+import {Navbar,ListGroup,Nav,Container,Card,Button,ProgressBar} from 'react-bootstrap';
 import about from "./about.jpeg"
 import "./Main.css";
 import image from "./ishita.jpg";
@@ -13,18 +13,11 @@ function Main() {
   return (<>
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#"><img className="" src={g}/>Ishita Sehgal</Navbar.Brand>
+  <Navbar.Brand href="#"><img className="github" src={g}/>Ishita Sehgal</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      
-      {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Skills</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Resume</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown> */}
+  
     </Nav>
     <Nav>
     <Nav.Link href="#about">About</Nav.Link>
@@ -33,9 +26,7 @@ function Main() {
       <Nav.Link href="#projects">Projects</Nav.Link>
       <Nav.Link href="https://drive.google.com/file/d/1823o5Dcg7EoodyaMBOW-nZhVe51VjOy2/view?usp=drivesdk">Resume</Nav.Link>
       <Nav.Link href="#skills">Skills</Nav.Link>
-      {/* <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link> */}
+
     </Nav>
   </Navbar.Collapse>
   </Container>
@@ -71,10 +62,12 @@ function Main() {
    <br/> Dronacharya College Of Engineering , Gurgaon 
    <br/>(affiliated to Maharshi Dayanand
 University, Rohtak)<br/>
+<small><li>(2019-2023)</li></small>
 <small><li>CGPA: 9.48</li></small>
 </p></ListGroup.Item>
     <ListGroup.Item><p>High School (science stream)<br/>
 Delhi Public School, Gurgaon<br/>
+<small><li>-2019 batch</li></small>
 <small><li>percentage: 95.33%</li></small>
  </p></ListGroup.Item>
    
@@ -93,7 +86,7 @@ Delhi Public School, Gurgaon<br/>
 <small><li>(1st March 2021-1st April 2021)</li></small>
 <small><li>Task: To build a banking transaction web application showing transaction history of transfer of amount between two people</li></small>
 </p></ListGroup.Item>
-    <ListGroup.Item><p>GirlScript Suumer of Code 2021<br/>
+    <ListGroup.Item><p>GirlScript Summer of Code 2021<br/>
 
 <small><li>(8th March,2021-31st May,2021)</li></small>
 <small><li>A 3-month long open source program in which I contributed in various javascript open source projects</li></small>
